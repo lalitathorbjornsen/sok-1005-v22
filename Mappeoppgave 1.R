@@ -48,7 +48,6 @@ plot <- data %>%
        x = "Year", y = "Change in Temperature, C") + theme_bw()
 
 plot
-
 # Endrer X-aksen til å få alle årene
 # Setter blå strek på y aksen
 plot + scale_x_date(date_breaks = "12 month", date_labels = "%Y") +
