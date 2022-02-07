@@ -66,4 +66,3 @@ plot2
 plot +
   geom_smooth(method='lm', col="red", size=0.4)
 
-
